@@ -1,0 +1,4 @@
+api:
+  url: https://love-calculator.p.mashape.com/getPercentage?fname=%s&sname=%s
+  header: X-Mashape-Key
+  key: aKhRBkgi2xmshSdmi9NEjXJZAcu1p1xWdt7jsn813kxMJ5uxAh
