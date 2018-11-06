@@ -1,0 +1,12 @@
+version: '3'
+services:
+  uninov-database:
+    image: postgres:10.3
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=lovecalculator
+      - POSTGRES_USER=love
+      - POSTGRES_PASSWORD=love
+    volumes:
+      - ./postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
