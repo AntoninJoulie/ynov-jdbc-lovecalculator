@@ -2,22 +2,14 @@ package com.example.demo.api;
 
 public class LoveResult {
 
-    private String percentage;
-    private String result;
+    private Integer percentage;
 
-    public String getPercentage() {
+    public Integer getPercentage() {
         return percentage;
     }
 
-    public void setPercentage(String percentage) {
+    public void setPercentage(Integer percentage) {
         this.percentage = percentage;
     }
 
-    public String getResult() {
-        return result;
-    }
-
-    public void setResult(String result) {
-        this.result = result;
-    }
 }

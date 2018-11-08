@@ -1,6 +1,6 @@
-version: '3'
+version: '2'
 services:
-  uninov-database:
+  love-database:
     image: postgres:10.3
     ports:
       - 5432:5432
